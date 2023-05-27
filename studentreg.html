@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='ISO-8859-1'>
+<title>Student registration</title>
+</head>
+<body bgcolor='sky blue'>
+	<form action='./studentreg' method='get'>
+		<table align='center'>
+			<tr>
+				<td align='center' colspan='2'><h3>Registration Form</h3></td>
+			<tr>
+				<td>Student Name:</td>
+				<td><input type='text' name='name'></td>
+			</tr>
+			<tr>
+				<td>Mobile Number :</td>
+				<td><input type='text' name='mobile'></td>
+			</tr>
+			<tr>
+				<td>E-mail id:</td>
+				<td><input type='text' name='emailid' id='name'><br>
+					<br></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type='password' name='password'></td>
+			</tr>
+			<tr>
+				<td>Gender:</td>
+				<td>
+				<input type='radio' name='gender'  id='radiogroup1'  value = 'Male' >Male
+				<input type='radio' name='gender' value='Female' checked id='radiogroup2' >Female
+				</td>
+			</tr>
+			<tr>
+				<td>Courses:</td>
+				<td><input type='checkbox' name='course' checked="checked" value='Java'>Java 
+					<input type='checkbox' name='course' value='Python'>Python 
+					<input type='checkbox' name='course' value='Aws'>Aws
+				</td>
+			</tr>
+			<tr>
+				<td>City:</td>
+				<td><select name='city' id='city'>
+				<option> ---- select city --- </option>
+						<option>Blr</option>
+						<option>Hyd</option>
+						<option>Vizag</option>
+						<option>chennai</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type='submit' value='Register'>
+             </td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
